@@ -1,0 +1,6 @@
+
+<%= form_for(@lost_sock) do |f| %>
+  <%= "#{@lost_sock.seeker_name} lost a #{@lost_sock.color} sock." %>
+  <%= f.hidden_field :sock %>
+  <%= f.submit %>
+<% end %>
