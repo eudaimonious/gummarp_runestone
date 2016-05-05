@@ -1,0 +1,2 @@
+module LostSocksHelper
+end
